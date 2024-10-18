@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WS5 - JS Variables & Parsing</title>
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body onload="start()">
+
+        <h1 id="heading"></h1>
+        
+        <p id="string1">String 1: </p>
+        <p id="string2">String 2: </p>
+        <p id="string3">String 3: </p>
+        <p id="string4">String 4: </p>
+
+
+        <button onclick="parseString1ToInt()">Parse String 1 to Int</button>
+        <p id="result1"></p>
+        
+        <button onclick="parseString2ToInt()">Parse String 2 to Int</button>
+        <p id="result2"></p>
+        
+        <button onclick="parseString3ToInt()">Parse String 3 to Int</button>
+        <button onclick="parseString3ToFloat()">Parse String 3 to Float</button>
+        <p id="result3"></p>
+        
+        <button onclick="parseString4ToInt()">Parse String 4 to Int</button>
+        <p id="result4"></p>
+    </body>
+</html>
+
+<!-- 
+    1. a)
+    i) 99
+    ii) NaN
+    iii) 3 
+    iv) 3.50
+    v) NaN
+
+    6.
+    a) Implicit Conversion is the automatic conversion of data types in JavaScript. 
+        For example, when a string is added to a number, the number is converted to a string and concatenated with the other string.
+        (e.g. "5" + 5 = "55")
+        
+        Explicit Conversion is the manual conversion of data types in JavaScript.
+        For example, when a string is converted to an integer using the parseInt() function.
+        (e.g. parseInt("5") = 5)
+    
+    b) let result = parseInt(str1);
+        parseInt() function is used to parse a string and return an integer. (The string is converted to an integer)
+
+    c) alert("Your user ID is " + id + " and the type of data is " + typeof id);
+        The typeof operator is used to return the data type of a variable. (In this case, the data type of the variable id)
+
+-->
