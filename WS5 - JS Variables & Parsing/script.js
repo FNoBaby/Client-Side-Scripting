@@ -6,9 +6,9 @@ let str4 = "There are 26 bottles left on the wall. These bottles are from 3 diff
 function start() {
   let name = prompt("What is your name?");
 
-  let id = prompt("What is your user ID?");
+  let id = parseInt(prompt("What is your user ID?"));
 
-  alert("Your user ID is " + id + "and the type of data is" + typeof id);
+  alert("Your user ID is " + id + " and the type of data is " + typeof id);
 
   document.getElementById("heading").innerHTML =
     "Welcome to our page, " + name + " ("+ id +")"+ "!";
