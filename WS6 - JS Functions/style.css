@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  color: darkblue;
+  border: 1px solid darkblue;
+}
+
+span {
+  width: 200px;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}

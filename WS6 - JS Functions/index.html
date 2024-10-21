@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WS5 - JS Functions</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body onload="showDateTime()">
+        <p id="datetime"> Current date and time: </p>
+
+        <h1> Online Calculator </h1>
+
+        <label for="num1"> Number 1:</label>
+        <input id="num1" name="num1" type="number" required>
+
+        <br><br>
+        
+        <label for="num2"> Number 2:</label>
+        <input id="num2" name="num2" type="number" required>
+
+        <br><br>
+        <span> Addition </span>
+        <span id="addition"></span>
+        <button onclick="add()">Calculate</button>    
+        
+        <br><br>
+        <span> Subtract </span>
+        <span id="subtract"> </span>
+        <button onclick="subtract()">Calculate</button>
+        
+        <br><br>
+        <span> Mulitply </span>
+        <span id="multiply"></span>
+        <button onclick="multiply()">Calculate</button>
+        
+        <br><br>
+        <span> Divide </span>
+        <span id="divide"></span>
+        <button onclick="divide()">Calculate</button>
+
+        <br><br>
+        <span> Power </span>
+        <span id="power"></span>
+        <button onclick="power()">Calculate</button>
+
+        <br><br>
+        <span> Modulus </span>
+        <span id="modulus"></span>
+        <button onclick="modulus()">Calculate</button>
+
+        <br><br>
+        <span> Area </span>
+        <span id="area"></span>
+        <button onclick="area()">Calculate</button>
+
+        <br><br>
+        <span> Square Perimeter </span>
+        <span id="squarePerimete"></span>
+        <button onclick="squarePerimeter()">Calculate</button>
+
+
+    </body>
+</html>
