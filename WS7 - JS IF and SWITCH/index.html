@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WS7 - JS IF and SWITCH</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <span>
+            <p> Choose colour: </p>
+            <input id="colorInput" type="color">
+            <button onClick="confirmColour()"> Confirm Background Colour </button>
+        </span>
+
+        <span>
+            <p> Choose language: </p>
+
+            <input id="english" name="language" type="radio" value="English" checked>
+            <label for="english"> English </label>            
+            <input id="maltese" name="language" type="radio" value="Maltese">
+            <label for="maltese"> Maltese </label>
+            <input id="italian" name="language" type="radio" value="Italian">
+            <label for="italian"> Italian </label>
+
+            <button onClick="confirmLanguage()"> Confirm Language </button>
+        </span>
+
+        <span id="main">
+            <h1 id="header"> Welcome to Malta! </h1>
+            <img id="valletta" src="sources/image.png" alt="Valletta">
+            <p id="paragraph"> The capital city of Malta is Valletta</p>
+        </span>
+    </body>
+</html>
