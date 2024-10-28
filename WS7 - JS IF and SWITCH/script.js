@@ -62,13 +62,10 @@ function confirmLanguage() {
       document.getElementById("paragraph").innerHTML =
         "Il-kapitali ta' Malta hija Valletta.";
       break;
-    case "italian":
+    default:
       alert("You chose Italian");
       document.getElementById("header").innerHTML = "Benvenuti a Malta!";
       document.getElementById("paragraph").innerHTML =
         "La capitale di Malta è La Valletta.";
-      break;
-    default:
-      alert("Please select a language");
   }
 }
