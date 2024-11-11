@@ -1,0 +1,23 @@
+body{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+#wizardImage{
+    border: dotted 4px blue;
+    width: 400px;
+    margin-left: 35%;
+
+}
+h4,h1{
+    text-align: center;
+}
+label{
+    margin-left: 35%;
+}
+#btnGuess{
+    background-color: green;
+    color: white;
+}
+#numberGuessNotif ,#Counter{
+    text-align: center;
+}
