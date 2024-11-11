@@ -8,6 +8,8 @@ function btnClick(){
     const guessButton = document.getElementById("btnGuess");
     const attempts  = document.getElementById("Counter");
     const guess = parseInt(guessInput.value);
+
+    // guessNotif.style.backgroundColor = "white";
     attempt++; 
     if (isNaN(guess) || guess < 1 || guess > 20) {
         guessNotif.textContent = "Invalid input: Please enter a number between 1 and 20";
@@ -39,7 +41,8 @@ function btnClick(){
         attempt--;
     }
 
-    attempts.textContent = "Number of attempts: " + attempt + " Random number: " + randomNumber;
+    attempts.backgroundColor = "white";
+    attempts.textContent = "Number of attempts: " + attempt + " || Random number: " + randomNumber;
 }
 
 //Using Switch statement
