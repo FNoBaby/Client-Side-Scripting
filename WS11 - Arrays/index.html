@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WS10 - Arrays</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body onload="loadedWebsite()">
+        <h1>Working with Arrays</h1>
+        <!-- <p id="arrayLength">We are going to work with an array having a length of: </p> -->
+
+        <p> Choose your preference of array index:</p>
+        <label for="zero">Starting from 0</label>
+        <input id="zero" name="index" type="radio" value="0" checked>
+        <label for="one">Starting from 1</label>
+        <input id="one" name="index" type="radio" value="1">
+
+        <span>
+            <p> Enter the item's index to view the value</p>
+            <input id="arrayLookup" type="number">
+            <button onclick="lookup()">Fetch!</button>
+        </span>
+
+        <p id="arrayValue"> </p>
+        
+        <input id="input1" type="text">
+        <br>
+        <input id="input2" type="text">
+        <br>
+        <input id="input3" type="text">
+        <button onclick="createArray()">Enter</button>
+        <br><br>
+        <p id="result"></p>
+    </body>
+</html>
