@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1E90FF; /* Blue background */
+    color: #FFD700; /* Gold text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+}
+h1 {
+    margin-bottom: 20px;
+}
