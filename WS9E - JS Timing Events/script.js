@@ -3,6 +3,7 @@ document.getElementById('control-button').addEventListener('click', startTraffic
 let isRunning = false;
 
 function startTrafficLight() {
+  document.getElementById('control-button').style.visibility = 'hidden';
   if (isRunning) return;
   isRunning = true;
 
@@ -38,5 +39,6 @@ function startTrafficLight() {
     yellowLight.classList.remove('active');
     greenLight.classList.add('active');
     isRunning = false;
+    document.getElementById('control-button').style.visibility = 'visible';
   }, 15000);
 }
