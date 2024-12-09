@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentence Repeater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Loops in Javascript</h1>
+    <p> You must enter a sentence and the number of times (1 to 100) you want the sentence to be repeated. </p>
+    <div class="container">
+        <label for="sentence">Enter a sentence:</label>
+        <input type="text" id="sentence">
+        <br><br>
+        <label for="times">Enter number of times:</label>
+        <input type="number" id="times">
+        <br><br>
+        <button onclick="repeatSentence()">Display text for the chosen number of times</button>
+        <p id="error-message" class="error"></p>
+        <div id="output"></div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
